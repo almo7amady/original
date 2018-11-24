@@ -79,7 +79,7 @@ function wp_initial_constants() {
 		define('WP_DEBUG_LOG', false);
 
 	if ( !defined('WP_CACHE') )
-		define('WP_CACHE', true);
+		define('WP_CACHE', false);
 
 	// Add define('SCRIPT_DEBUG', true); to wp-config.php to enable loading of non-minified,
 	// non-concatenated scripts and stylesheets.
