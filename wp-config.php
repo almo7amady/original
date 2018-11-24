@@ -79,7 +79,6 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
-define('WP_CACHE', false);
 
 /* That's all, stop editing! Happy blogging. */
 
@@ -88,4 +87,7 @@ if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
+define('WP_CACHE', true);
+
+
 require_once(ABSPATH . 'wp-settings.php');
